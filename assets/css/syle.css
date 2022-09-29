@@ -15,3 +15,39 @@ h1, h2 {
     font-family: Playfair Display, sans-serif;
     font-weight: 300;
 }
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 30px;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+    font-family: Playfair Display, sans-serif;
+}
+
+#menu, #logo {
+    line-height: 75px;
+    color: #800020;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #800020;
+}
+
+.active {
+    border-bottom: 1px solid #800020;
+}
