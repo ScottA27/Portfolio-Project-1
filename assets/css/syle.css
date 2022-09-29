@@ -13,7 +13,6 @@ body {
 
 h1, h2 {
     font-family: Playfair Display, sans-serif;
-    font-weight: 300;
 }
 
 #logo {
@@ -50,4 +49,32 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #800020;
+}
+
+#main-image {
+    height: 600px;
+    background: url(../images/edinburgh-castle.jpg) no-repeat center center;
+    background-size: 100% auto;
+}
+
+#outer-image {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text {
+    font-size: 160%;
+    color: rgb(128, 0, 32);
+    letter-spacing: 2px;
+    font-family: Playfair Display, sans-serif;
+
+    width: 300px;
+    height: 200px;
+
+    bottom: 240px;
+    right: 150px;
+    position: absolute;
+    text-align: center;
 }
