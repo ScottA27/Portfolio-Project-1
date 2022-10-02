@@ -16,7 +16,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="booking.html" class="active">Book Now</a>
+                        <a href="booking.html" class="active">Book Now!</a>
                     </li>
                     <li>
                         <a href="history.html">History</a>
@@ -29,18 +29,22 @@
         </a>
     </header>
     
-    <section id="outer-booking-image">
-        <div id="main-booking-image"></div>
+    <section id="main-booking-image">
         <form id="booking-form">
             <h2>Book Now!</h2>
-            <label for="fname"></label>
+            <label for="fname">Full Name:</label>
             <input type="text" id="fname" name="full_name">
-            <label for="date"></label>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="date">Date:</label>
             <input type="date" id="date" name="date">
-            <label for="time"></label>
-            <input type="time" id="time" name="time">
-            <label for="submit"></label>
-            <input type="submit" id="submit" name="submit">
+            <span>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time">
+            </span>
+            <br>
+            <input type="submit" id="submit" name="submit" value="Book Now!">
         </form>
     </section>
     
