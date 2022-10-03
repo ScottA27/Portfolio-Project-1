@@ -95,13 +95,23 @@ h1, h2 {
 }
 
 section p {
-    text-align: center;
+    font-size: 160%;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+    border: 4px ridge #800020;
+    border-radius: 25px;
+}
+
+#home-para {
+    text-align: left;
     font-size: 150%;
     max-width: 33%;
     margin: 0 auto;
 }
 
-#side-image img {
+.side-image img {
     float: right;
     height: 300px;
     width: 400px;
@@ -116,10 +126,17 @@ section p {
     clear: left;
 }
 
-#container {
+.container {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
+}
+
+#history-img  img {
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
 }
 
 #booking-form {
