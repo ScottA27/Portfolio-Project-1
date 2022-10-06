@@ -132,6 +132,13 @@ section p {
     margin-left: 30px;
 }
 
+#history-one  img {
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -144,7 +151,7 @@ section p {
     margin-top: 30px;
 }
 
-#history-img  img {
+#history-two  img {
     float: right;
     height: 300px;
     width: 400px;
@@ -239,7 +246,8 @@ footer > iframe {
 
     #home-para {
         float: right;
-        height: 600px;
+        font-size: 90%;
+        width: 50%;
     }
 
     #opening {
@@ -253,12 +261,12 @@ footer > iframe {
 
     .side-image img {
         margin: 0 18px;
+        width: 45%;
     }
 
     #history-img img {
         margin: 0 18px;
     }
-
 }
 
 /* for medium screen size from 950px wide and down */
@@ -284,5 +292,44 @@ footer > iframe {
 
     section p {
         font-size: 120%;
+    }
+}
+
+/* for small screen sizes from 750px wide and down */
+@media screen and (max-width:750px) {
+    #logo {
+        font-size: 210%;
+    }
+
+    #menu {
+        font-size: 115%;    
+    }
+
+    #cover-text {
+        font-size: 120%;
+        left: 30px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #home-para {
+        font-size: 80%;
+        display: contents;
+        grid-row: 3;
+    }
+
+    .side-image {
+        grid-row: 2;
+    }
+
+    .side-image img {
+        width: 90%;
+    }
+
+    #opening {
+        grid-row: 1;
     }
 }
