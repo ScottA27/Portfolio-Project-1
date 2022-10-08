@@ -58,7 +58,7 @@ h1, h2 {
 
 #main-image {
     height: 600px;
-    background: url(../images/edinburgh-castle.jpg);
+    background: url(../images/edinburgh-castle.webp);
     background-size: cover;
     background-position: center;
     clear: left;
@@ -174,7 +174,7 @@ section p {
     max-width: 450px;
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 60%;
     padding: 30px;
     border: solid #800020;
     border-radius: 15px;
@@ -323,6 +323,7 @@ footer > iframe {
 
     .side-image {
         grid-row: 2;
+        margin: none;
     }
 
     .side-image img {
@@ -331,5 +332,70 @@ footer > iframe {
 
     #opening {
         grid-row: 1;
+        width: 90%;
+    }
+
+    .history-container {
+        display: grid;
+    }
+
+    #history-one {
+        grid-row: 1;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #history-one img {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    #history-two {
+        grid-row: 1;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #history-two img {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .history-para {
+        margin: 30% auto;
+        width: 80%;
+
+    }
+
+    #booking-form {
+        margin: 0 auto;
+        max-width: 50%;
+        top: 70%;
+        left: 10%;
+        right: 10%;
+        text-align: -moz-center;
+    }
+
+    form > input {
+        display: block;
+    }
+
+    form > span {
+        display: contents;
+    }
+}
+
+/* for small screen sizes 450px wide and down*/
+@media screen and (max-width:450px) {
+    #history-one img {
+        height: 250px;
+    }
+
+    #history-two img {
+        height: 250px;
+    }
+
+    .history-para {
+        font-size: 100%;
     }
 }
