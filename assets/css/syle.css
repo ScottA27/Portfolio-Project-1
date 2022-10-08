@@ -174,7 +174,7 @@ section p {
     max-width: 450px;
     position: absolute;
     left: 20%;
-    top: 60%;
+    top: 40%;
     padding: 30px;
     border: solid #800020;
     border-radius: 15px;
@@ -293,6 +293,10 @@ footer > iframe {
     section p {
         font-size: 120%;
     }
+
+    #booking-form {
+        top: 45%;
+    }
 }
 
 /* for small screen sizes from 750px wide and down */
@@ -333,6 +337,7 @@ footer > iframe {
     #opening {
         grid-row: 1;
         width: 90%;
+        margin: 0 auto;
     }
 
     .history-container {
@@ -362,7 +367,7 @@ footer > iframe {
     }
 
     .history-para {
-        margin: 30% auto;
+        margin: 0 auto;
         width: 80%;
 
     }
