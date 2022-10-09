@@ -303,10 +303,14 @@ footer > iframe {
 @media screen and (max-width:750px) {
     #logo {
         font-size: 210%;
+        margin-left: 10px;
     }
 
     #menu {
-        font-size: 115%;    
+        font-size: 150%;
+        letter-spacing: normal;
+        margin: 0 0 10px 10px;
+        line-height: 50px;
     }
 
     #cover-text {
@@ -327,11 +331,13 @@ footer > iframe {
 
     .side-image {
         grid-row: 2;
-        margin: none;
+        margin: 0 auto;
+        width: 90%;
     }
 
     .side-image img {
-        width: 90%;
+        width: 100%;
+        margin: 0;
     }
 
     #opening {
@@ -402,5 +408,13 @@ footer > iframe {
 
     .history-para {
         font-size: 100%;
+    }
+
+    .side-image img {
+        height: 250px;
+    }
+
+    #times-table {
+        height: 220px;
     }
 }
