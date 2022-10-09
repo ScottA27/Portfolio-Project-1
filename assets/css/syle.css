@@ -436,3 +436,19 @@ footer > iframe {
         min-width: 290px;
     }
 }
+
+/* for small screen sizes 320px wide and down */
+@media screen and (max-width:320px) {
+    #logo {
+        font-size: 170%;
+    }
+
+    #menu {
+        font-size: 110%;
+    }
+
+    #cover-text {
+        font-size: 120%;
+        left: 10px;
+    }
+}
