@@ -214,8 +214,11 @@ footer {
 }
 
 footer > iframe {
-    margin: 0 auto;
     display: block;
+    width: 97%;
+    height: 350px;
+    border: 0;
+    margin: 0 auto;
 }
 
 .social-networks{
@@ -290,7 +293,7 @@ footer > iframe {
         width: 50%;
     }
 
-    section p {
+    div p {
         font-size: 120%;
     }
 
@@ -416,5 +419,20 @@ footer > iframe {
 
     #times-table {
         height: 170px;
+    }
+}
+
+/* for small screen sizes 360px wide and down */
+@media screen and (max-width:360px) {
+    #logo {
+        font-size: 200%;
+    }
+
+    #menu {
+        font-size: 120%;
+    }
+
+    #opening {
+        min-width: 290px;
     }
 }
