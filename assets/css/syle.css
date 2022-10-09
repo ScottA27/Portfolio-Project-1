@@ -106,7 +106,7 @@ h1, h2 {
 
 /* paragraphs with side images */
 
-section p {
+div p {
     font-size: 160%;
     text-align: left;
     padding: 15px;
