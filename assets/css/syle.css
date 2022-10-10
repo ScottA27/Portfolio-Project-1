@@ -162,7 +162,7 @@ div p {
 
 #main-booking-image {
     height: 900px;
-    background: url(/assets/images/edinburgh-castle.webp);
+    background: url(../images/edinburgh-castle.webp);
     background-size: cover;
     background-position: center;
     clear: left;

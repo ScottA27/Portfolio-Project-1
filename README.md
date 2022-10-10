@@ -45,3 +45,9 @@ more information about Edinburgh Castle.
     * The booking form provides a layout which grabs the users attention with contrasting colours and a
     simple to read format.
     * The form asks the user for basic information and which date and time they would like to book to visit.
+
+## Testing
+
+## Deployment 
+
+## Credits
