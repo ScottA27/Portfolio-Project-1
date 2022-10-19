@@ -94,6 +94,8 @@ allow me to pick the exact order in which the elements would be presented.
 * Accessability 
     * I ran the website through the lighthouse programme in devtools to confirm the colours and fonts I used were readable.
 
+![lighthouse programme](/assets/images/lighthouse%20programme.png)
+
 ### Unfixed bugs
 
 * No unfixed bugs
